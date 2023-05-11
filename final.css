@@ -42,6 +42,9 @@ img {
 .main-header__link {
   color: #333;
 }
+.titulo{
+  display:none;
+}
 
 /* Estilos del Menu */
 .main-nav {
