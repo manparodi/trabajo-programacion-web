@@ -1,4 +1,4 @@
-  * {border: solid 1px red;}   
+/*   * {border: solid 1px red;}    */
 
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
 @font-face {
@@ -384,7 +384,7 @@ img {
 }
 
 .slide2 {
-  flex: 0 0 30%; /* Cambiar el tamaño de las diapositivas */
+  flex: 0 0 17%; /* Cambiar el tamaño de las diapositivas */
   padding: 0 10px;
   box-sizing: border-box;
 }
@@ -456,7 +456,8 @@ img {
     display: none;
   }
   .titulo{
-    font:20px
+    font:20px;
+    
   }
   .icon-menu{
     display: none;
@@ -471,7 +472,7 @@ img {
     margin-bottom: 20px;
   }
   .main-nav{
-    opacity: 1;
+    opacity: 1; 
     width: 100%;
   }
   .linea{
