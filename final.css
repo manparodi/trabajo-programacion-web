@@ -8,6 +8,10 @@
   font-family: "Poppins";
   src: url(../fonts/Poppins-Bold.ttf);
 }
+@font-face {
+  font-family: "Brian James";
+  src: url('fonts/BrianJames.ttf')
+}
 * {
   margin:0;
   box-sizing: border-box;
@@ -61,6 +65,7 @@ img {
 }
 
 .titulo {
+  font-family: 'Brian James';
   text-align: center;
   flex-grow: 1;
   color: white;
