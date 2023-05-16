@@ -15,105 +15,119 @@
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">  
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
         <script src="sliderropa.js"></script>
+        <script src="barras.js"></script>
     </head>
-    <body>
-        <header class="main-header">
-          <div class="main-header__container">
-            <div class="logo"> 
-              <img src="imagenes/logo1.jpg">
-            </div>
-            <div class="titulo">
-              <h2>REY DE LAS FERIAS</h2>
-            </div>
-            <div class="shop-barras"> 
-              <span class="main-header__btn"><img src="imagenes/carrito" > </span>
-              <span class="icon-menu" id="btn-menu"><i class="fas fa-bars" style="color:white"></i></span>
-            </div>
-            <div class="linea"> </div>
-            <nav class="main-nav" id="main-nav">
-              <ul class="menu">
-                <li class="menu__item"><a href="" class="menu__link">INICIO</a></li>
-                <li class="menu__item"><a href="" class="menu__link">COMPRAR</a></li>
-                <li class="menu__item"><a href="" class="menu__link">PREGUNTAS FRECUENTES</a></li>
-                <li class="menu__item"><a href="" class="menu__link">VENDE TU ROPA</a></li>
-                <li class="menu__item"><a href="" class="menu__link">CONTACTO</a></li>
-              </ul>
-            </nav>
-          </div>
-        </header>
-      <div class="container-slider">
-        <div class="slider" id="slider">
-          <div class="slider__section">
-            <img src="imagenes/imagen1.jpeg" alt="" class="slider__img">
-            <div class="slider__content">
-              <h2 class="slider__title">Coleccion Verano</h2>
-              <a href="" class="btn-shop">COMPRAR</a>
-            </div>
-          </div>
-          <div class="slider__section">
-            <img src="imagenes/imagen2.jpeg" alt="" class="slider__img">
-            <div class="slider__content">
-              <h2 class="slider__title">Coleccion Verano</h2>
-              <a href="" class="btn-shop">COMPRAR</a>
-            </div>
-          </div>
-          <div class="slider__section">
-            <img src="imagenes/imagen3.jpeg" alt="" class="slider__img">
-            <div class="slider__content">
-              <h2 class="slider__title">Coleccion Verano</h2>
-              <a href="" class="btn-shop">COMPRAR</a>
-            </div>
-          </div>
-          <div class="slider__section">
-            <img src="imagenes/imagen1.jpeg" alt="" class="slider__img">
-            <div class="slider__content">
-              <h2 class="slider__title">Coleccion Verano</h2>
-              <a href="" class="btn-shop">COMPRAR</a>
-            </div>
-          </div>
+    <header class="main-header">
+      <div class="main-header__container">
+        <div class="logo"> 
+          <img src="imagenes/logo1.jpg">
         </div>
-<!--         <div class="destacados">
+        <div class="icon-menu">
+          <i class="fa-solid fa-bars fa-lg" style="color: #ffffff;"></i>
+        </div>
+        <div class="titulo">
+          <h2>REY DE LAS FERIAS</h2>
+        </div>
+        <div class="main-header__btn">
+          <img src="imagenes/carrito.png" alt="Icono de carrito">
+        </div>
+      </div>
+    </header>
+    
+      <div class="linea"></div>
+      <nav class="main-nav" id="main-nav">
+        <ul class="menu">
+          <li class="menu__item"><a href="" class="menu__link">INICIO</a></li>
+          <li class="menu__item"><a href="" class="menu__link">COMPRAR</a></li>
+          <li class="menu__item"><a href="" class="menu__link">PREGUNTAS FRECUENTES</a></li>
+          <li class="menu__item"><a href="" class="menu__link">VENDE TU ROPA</a></li>
+          <li class="menu__item"><a href="" class="menu__link">CONTACTO</a></li>
+        </ul>
+      </nav>
+    
+      
+      <main class="main">  
+        <div class="portada">
+          <img src="imagenes/corona.jpeg">
+        </div>
+        <div class="destacados">
           <h2>Destacados</h2>
           <div class="slider2">
             <div class="slide2">
               <img src="imagenes/camperafloresesp.jpg">
+              <div class="descripcion">
+                <p>Campera Flores Española</p>
+                <p>Precio: $99.99</p>
+              </div>
             </div>
             <div class="slide2">
               <img src="imagenes/camperafloresfre.jpg">
+              <div class="descripcion">
+                <p>Campera Flores Francesa</p>
+                <p>Precio: $109.99</p>
+              </div>
             </div>
             <div class="slide2">
-              <img src="imagenes/camperajean.jpg">
+              <img src="imagenes/camperajean.jpg" >
+              <div class="descripcion">
+                <p>Campera Jean</p>
+                <p>Precio: $89.99</p>
+              </div>
             </div>
             <div class="slide2">
               <img src="imagenes/camperarojaesp.jpg">
-            </div>
-            <div class="slide2">
-              <img src="imagenes/camperarojaesp.jpg">
-            </div>
-            <div class="slide2">
-              <img src="imagenes/camperafloresesp.jpg">
+              <div class="descripcion">
+                <p>Campera Roja Española</p>
+                <p>Precio: $79.99</p>
+              </div>
             </div>
             <div class="slide2">
               <img src="imagenes/camperafloresfre.jpg">
+              <div class="descripcion">
+                <p>Campera Flores Francesa</p>
+                <p>Precio: $109.99</p>
+              </div>
             </div>
             <div class="slide2">
               <img src="imagenes/camperajean.jpg">
+              <div class="descripcion">
+                <p>Campera Jean</p>
+                <p>Precio: $89.99</p>
+              </div>
             </div>
             <div class="slide2">
               <img src="imagenes/camperarojaesp.jpg">
+              <div class="descripcion">
+                <p>Campera Roja Española</p>
+                <p>Precio: $79.99</p>
+              </div>
+            </div>
+            <div class="slide2">
+              <img src="imagenes/camperafloresfre.jpg">
+              <div class="descripcion">
+                <p>Campera Flores Francesa</p>
+                <p>Precio: $109.99</p>
+              </div>
+            </div>
+            <div class="slide2">
+              <img src="imagenes/camperajean.jpg">
+              <div class="descripcion">
+                <p>Campera Jean</p>
+                <p>Precio: $89.99</p>
+              </div>
             </div>
             <div class="slide2">
               <img src="imagenes/camperarojaesp.jpg">
-            </div>  
-            <div class="slide2">
-              <img src="imagenes/camperarojaesp.jpg">
+              <div class="descripcion">
+                <p>Campera Roja Española</p>
+                <p>Precio: $79.99</p>
+              </div>
             </div>
           </div>
           <a class="prev" onclick="plusSlide(-1)">&#10094;</a>
           <a class="next" onclick="plusSlide(1)">&#10095;</a>
-        </div>
-      </div> -->
-      <main class="main">  
+        </div> 
+      
         <section class="container">
           <div class="container-products">
             <div class="product" id="foto1">
