@@ -1,4 +1,4 @@
-/*        * {border: solid 1px red;}     */ 
+        /* * {border: solid 1px red;}      */
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
 @font-face {
   font-family: "Inconsolata";
@@ -10,7 +10,7 @@
 }
 @font-face {
   font-family: "Brian James";
-  src: url('fonts/BrianJames.ttf')
+  src: url('fonts/BrianJames.ttf');
 }
 * {
   margin:0;
@@ -44,6 +44,7 @@ img {
 }
 .icon-menu {
   font-size: 30px;
+  display: none;
   color: white;
   margin-top: 25px;
   margin-bottom: 10px;
@@ -63,8 +64,12 @@ img {
   margin:0px;
   
 }
+.titulo{
+  margin-left: 440px;
+}
 
-.titulo {
+.texto-titulo{
+  cursor: pointer;
   font-family: 'Brian James';
   text-align: center;
   flex-grow: 1;
@@ -192,6 +197,7 @@ img {
 }
 
 .product {
+  cursor: pointer;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 0px;
@@ -206,35 +212,15 @@ img {
   object-fit: cover;
 }
 
-.product__description {
-  position: absolute;
-  bottom: 0;
-  left:0;
-  color: white;
-  width: 100%;
-  text-align: center;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 .product__title{
+  cursor: pointer;
   text-align: center;
   font-size: 40px;
   margin-bottom: 0px;
+  margin-top: 60px;
 }
-.btn-product{
-  display: block;
-  border: 2px solid #000000;
-  color: white;
-  padding: 10px;
-  text-align: center;
-  border-radius: 10px;
-  text-decoration: none;
-  width: 150px;
-  margin: 10px auto;
-  transition: all 0.5s;  
-}
+
 
 /* ESTILOS DE PRODUCTOS COMPU*/
 @media only screen and (min-width: 1020px) {
@@ -296,6 +282,10 @@ img {
   padding: 50px 0;
   width: 100%;
   box-sizing: border-box;
+}
+.separacion{
+  background-color: white;
+  height: 10px;
 }
 
 .container-venta {
@@ -426,6 +416,7 @@ img {
   padding: 30px 20px;
 }
 .footer__title{
+  color: #555;
   border-bottom: 1px dotted #555;
   padding-bottom: 20px;
 }

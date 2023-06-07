@@ -10,28 +10,37 @@
         <script src="slider.js"></script> 
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
-    </head>
-    <body>
+        <script src="scroll.js"></script> 
+      </head>
       <header class="main-header">
-          <div class="main-header__container">
-            <div class="logo"> 
-              <img src="imagenes/logo1.jpg">
-            </div>
-            <div class="shop-barras"> 
-              <span class="main-header__btn"><i class="fas fa-shopping-cart" style="color: white;"></i></span>
-              <span class="icon-menu" id="btn-menu"><i class="fas fa-bars" style="color:white"></i></span>
-            </div>
-            <nav class="main-nav" id="main-nav">
-              <ul class="menu">
-                <li class="menu__item"><a href="" class="menu__link">INICIO</a></li>
-                <li class="menu__item"><a href="" class="menu__link">COMPRAR</a></li>
-                <li class="menu__item"><a href="" class="menu__link">PREGUNTAS FRECUENTES</a></li>
-                <li class="menu__item"><a href="" class="menu__link">VENDE TU ROPA</a></li>
-                <li class="menu__item"><a href="" class="menu__link">CONTACTO</a></li>
-              </ul>
-            </nav>
+        <div class="main-header__container">
+          <div class="logo"> 
+            <img src="imagenes/logo1.jpg">
           </div>
+          <div class="icon-menu">
+            <i class="fa-solid fa-bars fa-lg" style="color: #ffffff;"></i>
+          </div>
+          <div class="titulo">
+            <div class="texto-titulo">
+              <h2>REY DE LAS FERIAS</h2>
+            </div>
+          </div>
+          <div class="main-header__btn">
+            <img src="imagenes/carrito.png" alt="Icono de carrito">
+          </div>
+        </div>
       </header>
+      <div class="linea"></div>
+      <nav class="main-nav" id="main-nav">
+        <ul class="menu">
+          <li class="menu__item"><a href="index.html" class="menu__link">INICIO</a></li>
+          <li class="menu__item"><a href="productos.html" class="menu__link">COMPRAR</a></li>
+          <li class="menu__item"><a href="" class="menu__link">PREGUNTAS FRECUENTES</a></li>
+          <li class="menu__item"><a href="productos.html" class="menu__link" id="vende-tu-ropa">VENDE TU ROPA</a></li>
+          <li class="menu__item"><a href="" class="menu__link">CONTACTO</a></li>
+        </ul>
+      </nav>
+      
       <div class="filtro-orden">
         <div class="box">
           <div class="filter">
@@ -50,7 +59,7 @@
         <div class="grid-item">
             <img src="imagenes/camperafloresesp.jpg" alt="Descripción de la imagen 1">
             <div class="descripcion">
-                <p class="titulo">Campera Floreada Zara</p>
+                <p class="titulo-producto">Campera Floreada Zara</p>
                 <p class="precio">$5.280,00</p>
                 <p class="detalles">10% de descuento con transferencia</p>
                 <button id="buy-button">Comprar</button>
@@ -59,25 +68,43 @@
         <div class="grid-item">
             <img src="imagenes/camperajean.jpg" alt="Descripción de la imagen 2">
             <div class="descripcion">
-                <p class="titulo">Campera de Jean H&M</p>
+                <p class="titulo-producto">Campera de Jean H&M</p>
                 <p class="precio">$4.200,00</p>
                 <p class="detalles">10% de descuento con transferencia</p>
                 <button id="buy-button">Comprar</button>
-            </div>
+          </div>
         </div>
         <div class="grid-item">
             <img src="imagenes/camperarojafre.jpg" alt="Descripción de la imagen 3">
             <div class="descripcion">
-                <p class="titulo">Campera Roja Zara</p>
+                <p class="titulo-producto">Campera Roja Zara</p>
                 <p class="precio">$3.100,00</p>
                 <p class="detalles">10% de descuento con transferencia</p>
                 <button id="buy-button">Comprar</button>
-            </div>
+          </div>
         </div>
+        <div class="grid-item">
+          <img src="imagenes/camperajean.jpg" alt="Descripción de la imagen 2">
+          <div class="descripcion">
+              <p class="titulo-producto">Campera de Jean H&M</p>
+              <p class="precio">$4.200,00</p>
+              <p class="detalles">10% de descuento con transferencia</p>
+              <button id="buy-button">Comprar</button>
+        </div>
+      </div>
+      <div class="grid-item">
+          <img src="imagenes/camperarojafre.jpg" alt="Descripción de la imagen 3">
+          <div class="descripcion">
+              <p class="titulo-producto">Campera Roja Zara</p>
+              <p class="precio">$3.100,00</p>
+              <p class="detalles">10% de descuento con transferencia</p>
+              <button id="buy-button">Comprar</button>
+        </div>
+      </div>
         <div class="grid-item">
             <img src="imagenes/camperanegracuero.jpg" alt="Descripción de la imagen 3">
             <div class="descripcion">
-                <p class="titulo">Campera de Cuero Mango</p>
+                <p class="titulo-producto">Campera de Cuero Mango</p>
                 <p class="precio">$1.750,00</p>
                 <p class="detalles">10% de descuento con transferencia</p>
                 <button id="buy-button">Comprar</button>

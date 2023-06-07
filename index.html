@@ -9,6 +9,7 @@
         <link rel="stylesheet" 
         href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css>  
         <script src="slider.js"></script> 
+        <script src="scroll.js"></script> 
         <script src="slider2.js"></script> 
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
@@ -26,158 +27,156 @@
           <i class="fa-solid fa-bars fa-lg" style="color: #ffffff;"></i>
         </div>
         <div class="titulo">
-          <h2>REY DE LAS FERIAS</h2>
+          <div class="texto-titulo">
+            <h2>REY DE LAS FERIAS</h2>
+          </div>
         </div>
         <div class="main-header__btn">
           <img src="imagenes/carrito.png" alt="Icono de carrito">
         </div>
       </div>
     </header>
-    
-      <div class="linea"></div>
-      <nav class="main-nav" id="main-nav">
-        <ul class="menu">
-          <li class="menu__item"><a href="" class="menu__link">INICIO</a></li>
-          <li class="menu__item"><a href="" class="menu__link">COMPRAR</a></li>
-          <li class="menu__item"><a href="" class="menu__link">PREGUNTAS FRECUENTES</a></li>
-          <li class="menu__item"><a href="" class="menu__link">VENDE TU ROPA</a></li>
-          <li class="menu__item"><a href="" class="menu__link">CONTACTO</a></li>
-        </ul>
-      </nav>
-    
-      
-      <main class="main">  
-        <div class="portada">
-          <img src="imagenes/corona.jpeg">
-        </div>
-        <div class="destacados">
-          <h2>Destacados</h2>
-          <div class="slider2">
-            <div class="slide2">
-              <img src="imagenes/camperafloresesp.jpg">
-              <div class="descripcion">
-                <p>Campera Flores Española</p>
-                <p>Precio: $99.99</p>
-              </div>
-            </div>
-            <div class="slide2">
-              <img src="imagenes/camperafloresfre.jpg">
-              <div class="descripcion">
-                <p>Campera Flores Francesa</p>
-                <p>Precio: $109.99</p>
-              </div>
-            </div>
-            <div class="slide2">
-              <img src="imagenes/camperajean.jpg" >
-              <div class="descripcion">
-                <p>Campera Jean</p>
-                <p>Precio: $89.99</p>
-              </div>
-            </div>
-            <div class="slide2">
-              <img src="imagenes/camperarojaesp.jpg">
-              <div class="descripcion">
-                <p>Campera Roja Española</p>
-                <p>Precio: $79.99</p>
-              </div>
-            </div>
-            <div class="slide2">
-              <img src="imagenes/camperafloresfre.jpg">
-              <div class="descripcion">
-                <p>Campera Flores Francesa</p>
-                <p>Precio: $109.99</p>
-              </div>
-            </div>
-            <div class="slide2">
-              <img src="imagenes/camperajean.jpg">
-              <div class="descripcion">
-                <p>Campera Jean</p>
-                <p>Precio: $89.99</p>
-              </div>
-            </div>
-            <div class="slide2">
-              <img src="imagenes/camperarojaesp.jpg">
-              <div class="descripcion">
-                <p>Campera Roja Española</p>
-                <p>Precio: $79.99</p>
-              </div>
-            </div>
-            <div class="slide2">
-              <img src="imagenes/camperafloresfre.jpg">
-              <div class="descripcion">
-                <p>Campera Flores Francesa</p>
-                <p>Precio: $109.99</p>
-              </div>
-            </div>
-            <div class="slide2">
-              <img src="imagenes/camperajean.jpg">
-              <div class="descripcion">
-                <p>Campera Jean</p>
-                <p>Precio: $89.99</p>
-              </div>
-            </div>
-            <div class="slide2">
-              <img src="imagenes/camperarojaesp.jpg">
-              <div class="descripcion">
-                <p>Campera Roja Española</p>
-                <p>Precio: $79.99</p>
-              </div>
+    <div class="linea"></div>
+    <nav class="main-nav" id="main-nav">
+      <ul class="menu">
+        <li class="menu__item"><a href="index.html" class="menu__link">INICIO</a></li>
+        <li class="menu__item"><a href="productos.html" class="menu__link">COMPRAR</a></li>
+        <li class="menu__item"><a href="" class="menu__link">PREGUNTAS FRECUENTES</a></li>
+        <li class="menu__item"><a href="productos.html" class="menu__link">VENDE TU ROPA</a></li>
+        <li class="menu__item"><a href="" class="menu__link">CONTACTO</a></li>
+      </ul>
+    </nav>
+    <main class="main">  
+      <div class="portada">
+        <img src="imagenes/corona.jpeg">
+      </div>
+      <div class="destacados">
+        <h2>Destacados</h2>
+        <div class="slider2">
+          <div class="slide2">
+            <img src="imagenes/camperafloresesp.jpg">
+            <div class="descripcion">
+              <p>Campera Flores Española</p>
+              <p>Precio: $99.99</p>
             </div>
           </div>
-          <a class="prev" onclick="plusSlide(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlide(1)">&#10095;</a>
-        </div> 
-      
-        <section class="container">
-          <div class="container-products">
-            <div class="product" id="foto1">
-              <img src="imagenes/camperanegracuero.jpg" alt="" class="product__img">
-              <div class="product__description">
-                <h3 class="product__title">NUEVO</h3>
-                <a href="" class="btn-product">ver mas</a>
-              </div>
-            </div>
-            <div class="product" id="foto2">
-              <img src="imagenes/camperafloresfre.jpg" alt="" class="product__img">
-              <div class="product__description">
-                <h3 class="product__title">USADO</h3>
-                <a href="" class="btn-product">ver mas</a>
-              </div>
+          <div class="slide2">
+            <img src="imagenes/camperafloresfre.jpg">
+            <div class="descripcion">
+              <p>Campera Flores Francesa</p>
+              <p>Precio: $109.99</p>
             </div>
           </div>
-        </section>
-        <section class="seccion-venta">
-          <div class="container-venta">
-            <div class="titulo-venta">
-              <h2>Vende tu Ropa</h2>
-              <h3>¿Queres vender tu ropa? Contactanos!</h3>
-            </div>
-            <div class="venta-email">
-              <form>
-                <input type="email" placeholder="Ingresa tu email">
-                <button type="submit"><i class="fas fa-arrow-right"></i></button>
-              </form>
+          <div class="slide2">
+            <img src="imagenes/camperajean.jpg" >
+            <div class="descripcion">
+              <p>Campera Jean</p>
+              <p>Precio: $89.99</p>
             </div>
           </div>
-        </section>         
-      </main>
-      <footer class="main-footer">
-        <div class="footer__section">
-          <h2 class="footer__title">Nosotros</h2>
-          <p class="footer__txt">Curabitur non nulla sit amet nislinit tempus convallis quis ac lectus. lac inia eget consectetur sed, convallis at tellus. Nulla porttitor accumsana tincidunt.</p>
+          <div class="slide2">
+            <img src="imagenes/camperarojaesp.jpg">
+            <div class="descripcion">
+              <p>Campera Roja Española</p>
+              <p>Precio: $79.99</p>
+            </div>
+          </div>
+          <div class="slide2">
+            <img src="imagenes/camperafloresfre.jpg">
+            <div class="descripcion">
+              <p>Campera Flores Francesa</p>
+              <p>Precio: $109.99</p>
+            </div>
+          </div>
+          <div class="slide2">
+            <img src="imagenes/camperajean.jpg">
+            <div class="descripcion">
+              <p>Campera Jean</p>
+              <p>Precio: $89.99</p>
+            </div>
+          </div>
+          <div class="slide2">
+            <img src="imagenes/camperarojaesp.jpg">
+            <div class="descripcion">
+              <p>Campera Roja Española</p>
+              <p>Precio: $79.99</p>
+            </div>
+          </div>
+          <div class="slide2">
+            <img src="imagenes/camperafloresfre.jpg">
+            <div class="descripcion">
+              <p>Campera Flores Francesa</p>
+              <p>Precio: $109.99</p>
+            </div>
+          </div>
+          <div class="slide2">
+            <img src="imagenes/camperajean.jpg">
+            <div class="descripcion">
+              <p>Campera Jean</p>
+              <p>Precio: $89.99</p>
+            </div>
+          </div>
+          <div class="slide2">
+            <img src="imagenes/camperarojaesp.jpg">
+            <div class="descripcion">
+              <p>Campera Roja Española</p>
+              <p>Precio: $79.99</p>
+            </div>
+          </div>
         </div>
-        <div class="footer__section">
-          <h2 class="footer__title">Contactanos</h2>
-          <p class="footer__txt">Telefono : +121 098 8907 9987</p>
-          <p class="footer__txt">Email : info@example.com</p>
+        <a class="prev" onclick="plusSlide(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlide(1)">&#10095;</a>
+      </div> 
+      <section class="container">
+        <div class="container-products">
+          <div class="product" id="foto1">
+            <img src="imagenes/camperanegracuero.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">NUEVO</h3>
+            </div>
+          </div>
+          <div class="product" id="foto2">
+            <img src="imagenes/camperafloresfre.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">USADO</h3>
+            </div>
+          </div>
         </div>
-        <div class="footer__section">
-          <h2 class="footer__title">Menu</h2>
-          <a href="" class="footer__link">Inicio</a>
-          <a href="" class="footer__link">Comprar</a>
-          <a href="" class="footer__link">Preguntas Frecuentes</a>
-          <a href="" class="footer__link">Comprar</a>
-          <a href="" class="footer__link">Contacto</a>
+      </section>
+      <div class="separacion"></div>
+      <section id="seccion-venta"  class="seccion-venta">
+        <div class="container-venta">
+          <div class="titulo-venta">
+            <h2>Vende tu Ropa</h2>
+            <h3>¿Queres vender tu ropa? Contactanos!</h3>
+          </div>
+          <div class="venta-email">
+            <form>
+              <input type="email" placeholder="Ingresa tu email">
+              <button type="submit"><i class="fas fa-arrow-right"></i></button>
+            </form>
+          </div>
         </div>
-        <p class="copy">© 2021 Goggles. All Rights Reserved | Design by W3Layouts</p>
-      </footer>
+      </section>
+      <div class="separacion"></div>         
+    </main>
+    <footer id="main-footer" class="main-footer">
+      <div class="footer__section">
+        <h2 class="footer__title">Nosotros</h2>
+        <p class="footer__txt">Curabitur non nulla sit amet nislinit tempus convallis quis ac lectus. lac inia eget consectetur sed, convallis at tellus. Nulla porttitor accumsana tincidunt.</p>
+      </div>
+      <div class="footer__section">
+        <h2 class="footer__title">Contactanos</h2>
+        <p class="footer__txt">Telefono : +121 098 8907 9987</p>
+        <p class="footer__txt">Email : info@example.com</p>
+      </div>
+      <div class="footer__section">
+        <h2 class="footer__title">Menu</h2>
+        <a href="" class="footer__link">Inicio</a>
+        <a href="" class="footer__link">Comprar</a>
+        <a href="" class="footer__link">Preguntas Frecuentes</a>
+        <a href="" class="footer__link">Comprar</a>
+        <a href="" class="footer__link">Contacto</a>
+      </div>
+      <p class="copy">© 2021 Goggles. All Rights Reserved | Design by W3Layouts</p>
+    </footer>
