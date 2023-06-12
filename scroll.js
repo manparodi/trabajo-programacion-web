@@ -58,6 +58,19 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 500); // Ajusta el tiempo según tus necesidades
       });
     });
+    // Obtener el elemento del menú "VENDE TU ROPA"
+    var vendeTuRopaLinks = document.querySelectorAll('.titulo');
+
+    // Agregar el evento de clic a cada enlace "VENDE TU ROPA"
+    vendeTuRopaLinks.forEach(function(link) {
+      link.addEventListener('click', function(event) {
+        event.preventDefault(); // Prevenir el comportamiento predeterminado del enlace
+  
+        // Redirigir a index.html y luego desplazarse a la sección de venta
+        window.location.href = 'index.html';
+      });
+    });
 });
+
   
   

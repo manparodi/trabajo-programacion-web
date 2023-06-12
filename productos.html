@@ -7,14 +7,16 @@
         <link rel="stylesheet" href="productos.css">
         <link rel="stylesheet" 
         href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css>
-        <script src="slider.js"></script> 
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="estilo.css">
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
         <script src="scroll.js"></script> 
+        <script src="orden.js"></script> 
       </head>
       <header class="main-header">
         <div class="main-header__container">
-          <div class="logo"> 
+          <div class="logo">
             <img src="imagenes/logo1.jpg">
           </div>
           <div class="icon-menu">
@@ -52,6 +54,12 @@
           <div class="sort">
             <span>Ordenar</span>
             <i class="fa-solid fa-arrow-down-wide-short" style="color: 2c3e50;"></i>
+            <ul id="orden-options" class="orden-options">
+              <li class="orden-option" data-option="titulo-asc">Título (A-Z)</li>
+              <li class="orden-option" data-option="titulo-desc">Título (Z-A)</li>
+              <li class="orden-option" data-option="precio-asc">Precio (Menor a Mayor)</li>
+              <li class="orden-option" data-option="precio-desc">Precio (Mayor a Menor)</li>
+            </ul>
           </div>
         </div>  
       </div>
@@ -62,7 +70,8 @@
                 <p class="titulo-producto">Campera Floreada Zara</p>
                 <p class="precio">$5.280,00</p>
                 <p class="detalles">10% de descuento con transferencia</p>
-                <button id="buy-button">Comprar</button>
+                <button class="buy-button">Comprar</button>
+
             </div>
         </div>
         <div class="grid-item">
@@ -71,7 +80,7 @@
                 <p class="titulo-producto">Campera de Jean H&M</p>
                 <p class="precio">$4.200,00</p>
                 <p class="detalles">10% de descuento con transferencia</p>
-                <button id="buy-button">Comprar</button>
+                <button class="buy-button">Comprar</button>
           </div>
         </div>
         <div class="grid-item">
@@ -90,17 +99,17 @@
               <p class="precio">$4.200,00</p>
               <p class="detalles">10% de descuento con transferencia</p>
               <button id="buy-button">Comprar</button>
+          </div>
         </div>
-      </div>
-      <div class="grid-item">
-          <img src="imagenes/camperarojafre.jpg" alt="Descripción de la imagen 3">
-          <div class="descripcion">
-              <p class="titulo-producto">Campera Roja Zara</p>
-              <p class="precio">$3.100,00</p>
-              <p class="detalles">10% de descuento con transferencia</p>
-              <button id="buy-button">Comprar</button>
+        <div class="grid-item">
+            <img src="imagenes/camperarojafre.jpg" alt="Descripción de la imagen 3">
+            <div class="descripcion">
+                <p class="titulo-producto">Campera Roja Zara</p>
+                <p class="precio">$3.100,00</p>
+                <p class="detalles">10% de descuento con transferencia</p>
+                <button id="buy-button">Comprar</button>
+            </div>
         </div>
-      </div>
         <div class="grid-item">
             <img src="imagenes/camperanegracuero.jpg" alt="Descripción de la imagen 3">
             <div class="descripcion">
@@ -109,9 +118,10 @@
                 <p class="detalles">10% de descuento con transferencia</p>
                 <button id="buy-button">Comprar</button>
             </div>
-          </div>
-        <!-- Añade aquí tantos divs como imágenes quieras incluir en la cuadrícula -->
+        </div>
       </div>
+        <!-- Añade aquí tantos divs como imágenes quieras incluir en la cuadrícula -->
+        
       <footer class="main-footer">
         <div class="footer__section">
           <h2 class="footer__title">Nosotros</h2>

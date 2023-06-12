@@ -75,6 +75,7 @@ img {
   flex-grow: 1;
   color: white;
   font-size: 28px;
+  text-decoration: none;
 }
 
 .linea {
