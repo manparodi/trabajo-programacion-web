@@ -1,4 +1,4 @@
-        /* * {border: solid 1px red;}      */
+         /* * {border: solid 1px red;}       */
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
 @font-face {
   font-family: "Inconsolata";
@@ -187,7 +187,7 @@ img {
 
 .portada{
   display:block;
-  width: 400%;
+  width: 100%;
 }
 
 /* ESTILOS DE PRODUCTOS */
