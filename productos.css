@@ -149,38 +149,27 @@ img {
   }
 
   .linea {
-    display: none;
+    height: 1px;
+    background-color: #ffffff;
+    margin-bottom: 0px;
   }
 
   .main-nav {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
     width: 100%;
     background-color: #000000;
     color: white;
     padding: 20px;
   }
 
-  .menu {
-    display: block;
-  }
-
   .menu__item {
     text-align: center;
-    margin-bottom: 10px;
   }
 
   .menu__link {
     color: #ffffff;
     text-decoration: none;
     padding: 10px;
-    display: block;
   }
-  }
-  .menu-active .main-nav {
-  display: block; 
   }
 
   /* Botones de filtro y de Orden */
